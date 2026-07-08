@@ -1,13 +1,12 @@
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
-
 body{
     font-family:Arial, sans-serif;
 }
-
 nav{
 
     background:#d62828;
@@ -23,13 +22,11 @@ nav{
     padding:15px 50px;
 
 }
-
 nav h2{
 
     font-size:30px;
 
 }
-
 nav ul{
 
     display:flex;
@@ -37,13 +34,11 @@ nav ul{
     list-style:none;
 
 }
-
 nav ul li{
 
     margin-left:25px;
 
 }
-
 nav ul li a{
 
     color:white;
@@ -53,12 +48,12 @@ nav ul li a{
     font-size:18px;
 
 }
-
 nav ul li a:hover{
 
     color:yellow;
 
 }
+/* Hero Section */
 
 .hero{
 
@@ -82,6 +77,8 @@ nav ul li a:hover{
 
 }
 
+/* Dark Overlay */
+
 .hero::before{
 
     content:"";
@@ -99,6 +96,8 @@ nav ul li a:hover{
     background:rgba(0,0,0,0.5);
 
 }
+
+/* Content */
 
 .hero-content{
 
@@ -145,6 +144,8 @@ nav ul li a:hover{
     background:#fb8500;
 
 }
+/* Menu Section */
+
 #menu{
     padding:60px;
     text-align:center;
